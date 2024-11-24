@@ -9,7 +9,7 @@ export const handleApiError = (error: unknown) => {
   let message = defaultMessage
 
   if (error instanceof AxiosError) {
-    message = error.response?.data?.message || error.message || defaultMessage
+    message = error.response?.data?.data?.message || error.message || defaultMessage
   }
 
   console.error(`API Error: ${message}`)

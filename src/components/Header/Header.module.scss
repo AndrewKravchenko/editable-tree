@@ -1,0 +1,15 @@
+@use "@/styles/variables" as *;
+
+.header {
+  height: 60px;
+  text-align: center;
+  background-color: $primary-color;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  .title {
+    margin: 0;
+    line-height: 60px;
+    color: $heading-color;
+  }
+}
