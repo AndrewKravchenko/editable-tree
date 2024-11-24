@@ -1,6 +1,6 @@
 import { FC, useCallback, useState } from 'react'
-import { InteractiveTree } from './InteractiveTree'
-import { NodeModal } from './NodeModal'
+import { InteractiveTree } from './components/InteractiveTree.tsx'
+import { NodeModal } from './components/NodeModal.tsx'
 import { treeService } from '@/api/treeService'
 import { useFetchTree } from './useFetchTree.ts'
 import { Button, notification } from 'antd'

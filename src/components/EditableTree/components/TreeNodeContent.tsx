@@ -1,5 +1,5 @@
 import { FC, memo } from 'react'
-import { TreeActions, TreeActionsProps } from './TreeActions'
+import { TreeActions, TreeActionsProps } from './TreeActions.tsx'
 import { ExclamationCircleOutlined } from '@ant-design/icons'
 import { Modal } from 'antd'
 

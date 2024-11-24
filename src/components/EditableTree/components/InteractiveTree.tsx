@@ -1,7 +1,7 @@
 import { FC, useState } from 'react'
 import RcTree from 'rc-tree'
 import type { DataNode, Key } from 'rc-tree/lib/interface'
-import { TreeNodeContent } from './TreeNodeContent'
+import { TreeNodeContent } from './TreeNodeContent.tsx'
 import type { TreeNode } from '@/types'
 import 'rc-tree/assets/index.css'
 
